@@ -102,7 +102,8 @@ ORDER BY Cantidad_Fraudes DESC;
 
 ![Gráfico de Horas de Fraude](Captura6.png)
 
-Los resultados revelan que el fraude no se distribuye de manera uniforme durante las 48 horas analizadas. Existe una estacionalidad crítica (picos de horas),  el delincuente busca 'camuflarse' entre el tráfico normal para evitar que los algoritmos de detección temprana disparen alertas inmediatas
+Los resultados del análisis temporal revelan que el fraude no ocurre al azar, sino que presenta una estacionalidad crítica. El pico máximo se registra alrededor de la hora 19 (6 transacciones) seguido de una actividad constante durante las horas 23 y 26 del ciclo analizado. 
+Esto gieren que los atacantes aprovechan momentos de alta transaccionalidad general o cambios de turno en sistemas de monitoreo para intentar camuflar sus operaciones.
 
 ---
 **7 Cual es el monto maximo robado en una sola transaccion durante la "Hora Pico" de fraude?**
